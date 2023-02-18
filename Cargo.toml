@@ -1,8 +1,15 @@
-[package]
-name = "rust-demo"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = [
+    "demo01-rust",
+    "demo01-rust/chapter1-function",
+    "demo02-wgpu",
+    "demo03-egui",
+    "demo03-egui/chapter1-create",
+    "demo03-egui/chapter2-components",
+    "demo03-egui/chapter3-template",
+]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
+#[dependencies]

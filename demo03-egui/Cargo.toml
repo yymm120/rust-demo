@@ -1,0 +1,9 @@
+[package]
+name = "demo03-egui"
+version = "0.1.0"
+#author = ["xinhao luo <yymm197281200@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

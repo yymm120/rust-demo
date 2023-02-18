@@ -3,8 +3,16 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/demo01-rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo02-wgpu/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo03-egui/chapter1-create/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo03-egui/chapter2-components/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo03-egui/chapter3-template/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo03-egui/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/demo01-rust/chapter1-function/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
+      <excludeFolder url="file://$MODULE_DIR$/demo03-egui/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
