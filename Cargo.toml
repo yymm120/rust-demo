@@ -1,12 +1,19 @@
 [workspace]
 members = [
+    "axum-blog",
     "demo01-rust",
     "demo01-rust/chapter1-function",
+    "demo01-rust/chapter2-controlflow",
     "demo02-wgpu",
     "demo03-egui",
     "demo03-egui/chapter1-create",
     "demo03-egui/chapter2-components",
     "demo03-egui/chapter3-template",
+    "demo04-test",
+    "demo04-test/chapter1-unit-test",
+    "demo05-rocket",
+    "demo05-rocket/chapter1-hello",
+    "demo06-xilem",
 ]
 
 
