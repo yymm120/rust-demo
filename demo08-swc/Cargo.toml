@@ -1,0 +1,24 @@
+[package]
+name = "demo08-swc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# string_enum = {}
+[dev-dependencies]
+anyhow                   = "1.0.86"
+string_enum              = { version="0.4.4",       path = "../../swc/crates/string_enum"}
+swc                      = { version = "0.279.0",   path = "../../swc/crates/swc" }
+swc_bundler              = { version = "0.230.2",   path = "../../swc/crates/swc_bundler" }
+swc_common               = { version = "0.34.3" ,   path = "../../swc/crates/swc_common" }
+swc_ecma_ast             = { version = "0.115.1",   path = "../../swc/crates/swc_ecma_ast" }
+swc_ecma_codegen         = { version = "0.151.1",   path = "../../swc/crates/swc_ecma_codegen" }
+testing                  = { version = "0.36.0" ,   path = "../../swc/crates/testing" }
+swc_ecma_loader          = { version = "0.46.0" ,   path = "../../swc/crates/swc_ecma_loader" }
+swc_ecma_minifier        = { version = "0.197.1",   path = "../../swc/crates/swc_ecma_minifier" }
+swc_ecma_parser          = { version = "0.146.7",   path = "../../swc/crates/swc_ecma_parser" }
+swc_ecma_transforms_base = { version = "0.140.1",   path = "../../swc/crates/swc_ecma_transforms_base" }
+swc_ecma_visit           = { version = "0.101.0",   path = "../../swc/crates/swc_ecma_visit" }
+swc_malloc               = { version = "0.5.10" ,   path = "../../swc/crates/swc_malloc" }
+
+

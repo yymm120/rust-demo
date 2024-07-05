@@ -1,0 +1,1 @@
+const FOO=1;class A{foo(){}}console.log(A,FOO);

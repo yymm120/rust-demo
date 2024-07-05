@@ -1,0 +1,482 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo01-rust'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo01-rust",
+                    "--package=demo01-rust"
+                ],
+                "filter": {
+                    "name": "demo01-rust",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo01-rust'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo01-rust",
+                    "--package=demo01-rust"
+                ],
+                "filter": {
+                    "name": "demo01-rust",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chapter1-function'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chapter1-function",
+                    "--package=chapter1-function"
+                ],
+                "filter": {
+                    "name": "chapter1-function",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chapter1-function'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chapter1-function",
+                    "--package=chapter1-function"
+                ],
+                "filter": {
+                    "name": "chapter1-function",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo02-wgpu'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo02-wgpu",
+                    "--package=demo02-wgpu"
+                ],
+                "filter": {
+                    "name": "demo02-wgpu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo02-wgpu'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo02-wgpu",
+                    "--package=demo02-wgpu"
+                ],
+                "filter": {
+                    "name": "demo02-wgpu",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo03-egui'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo03-egui",
+                    "--package=demo03-egui"
+                ],
+                "filter": {
+                    "name": "demo03-egui",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo03-egui'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo03-egui",
+                    "--package=demo03-egui"
+                ],
+                "filter": {
+                    "name": "demo03-egui",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chapter1-create'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chapter1-create",
+                    "--package=chapter1-create"
+                ],
+                "filter": {
+                    "name": "chapter1-create",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chapter1-create'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chapter1-create",
+                    "--package=chapter1-create"
+                ],
+                "filter": {
+                    "name": "chapter1-create",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chapter2-components'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chapter2-components",
+                    "--package=chapter2-components"
+                ],
+                "filter": {
+                    "name": "chapter2-components",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chapter2-components'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chapter2-components",
+                    "--package=chapter2-components"
+                ],
+                "filter": {
+                    "name": "chapter2-components",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'chapter3-template'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=chapter3-template"
+                ],
+                "filter": {
+                    "name": "chapter3-template",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'chapter3-template'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=chapter3-template",
+                    "--package=chapter3-template"
+                ],
+                "filter": {
+                    "name": "chapter3-template",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'chapter3-template'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=chapter3-template",
+                    "--package=chapter3-template"
+                ],
+                "filter": {
+                    "name": "chapter3-template",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo04-postgres'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo04-postgres",
+                    "--package=demo04-postgres"
+                ],
+                "filter": {
+                    "name": "demo04-postgres",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo04-postgres'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo04-postgres",
+                    "--package=demo04-postgres"
+                ],
+                "filter": {
+                    "name": "demo04-postgres",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo05-axum'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo05-axum",
+                    "--package=demo05-axum"
+                ],
+                "filter": {
+                    "name": "demo05-axum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo05-axum'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo05-axum",
+                    "--package=demo05-axum"
+                ],
+                "filter": {
+                    "name": "demo05-axum",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'demo06-auth'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=demo06-auth",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "demo06-auth",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preRunCommands": [
+                "env"
+            ],
+            "env": {
+                "RUST_LOG": "demo06_auth=info",
+                "SERVICE_DB_URL": "postgres://app_user:dev_only_pwd@124.222.48.193/app_db",
+                "SERVICE_PWD_KEY": "CKUGFOD9_2Qf6Pn3ZFRYgPYb8ht4vKqEG9PGMXTB7497bT0367DjoaD6ydFnEVaIRda0kKeBZVCT5Hb62m2sCA",
+                "SERVICE_TOKEN_KEY": "9FoHBmkyxbgu_xFoQK7e0jz3RMNVJWgfvbVn712FBNH9LLaAWS3CS6Zpcg6RveiObvCUb6a2z-uAiLjhLh2igw",
+                "SERVICE_TOKEN_DURATION_SEC": "1800",
+                "SERVICE_WEB_FOLDER": "web-folder/"
+            }
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'demo06-auth'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=demo06-auth",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "demo06-auth",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'gen_key'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=gen_key",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "gen_key",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'gen_key'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=gen_key",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "gen_key",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'quick_dev'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=quick_dev",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "quick_dev",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'quick_dev'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=quick_dev",
+                    "--package=demo06-auth"
+                ],
+                "filter": {
+                    "name": "quick_dev",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

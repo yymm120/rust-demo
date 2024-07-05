@@ -1,4 +1,5 @@
 [workspace]
+resolver = "2"
 members = [
     "demo01-rust",
     "demo01-rust/chapter1-function",
@@ -7,6 +8,9 @@ members = [
     "demo03-egui/chapter1-create",
     "demo03-egui/chapter2-components",
     "demo03-egui/chapter3-template",
+    "demo04-postgres",
+    "demo05-axum",
+    "demo06-auth", "demo07-encrypt", "demo08-swc",
 ]
 
 

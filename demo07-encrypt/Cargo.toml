@@ -1,0 +1,21 @@
+[package]
+name = "demo07-encrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# -- Tracing
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+# -- Crypt & Encoding
+rand = "0.8"
+hmac = "0.12"
+sha2 = "0.10"
+hex-literal = "0.4.1"
+base64-url = "2"
+# -- Others
+uuid = {version = "1", features = ["v4","fast-rng",]}
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+serial_test = "2"
