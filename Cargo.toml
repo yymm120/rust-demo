@@ -9,11 +9,11 @@ members = [
     # "demo03-egui/chapter2-components",
     # "demo03-egui/chapter3-template",
     # "demo04-postgres", "demo09-hyper",
-    # "demo05-axum",
+    "demo05-axum",
     # "demo06-auth", 
     # "demo07-encrypt", 
     # "demo08-swc",
-    "demo09-hyper",
+    # "demo09-hyper",
 ]
 
 

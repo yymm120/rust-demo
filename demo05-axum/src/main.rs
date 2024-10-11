@@ -44,3 +44,21 @@ async fn serve(app: Router, port: u16) {
         .await
         .unwrap();
 }
+// use tracing::{info, instrument};
+// use tracing_subscriber::fmt::format::FmtSpan;
+
+// #[tokio::main]
+// async fn main() {
+//     let subscriber = tracing_subscriber::fmt()
+//         .with_span_events(FmtSpan::CLOSE)
+//         .finish();
+
+//     tracing::subscriber::set_global_default(subscriber).unwrap();
+//     test_time();
+//     info!("hello world");
+// }
+
+// #[instrument]
+// fn test_time() {
+//     info!("test time");
+// }
