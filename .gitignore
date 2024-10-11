@@ -1,1 +1,7 @@
 /target
+
+.git
+dist
+node_modules
+.idea
+rust-demo.iml
