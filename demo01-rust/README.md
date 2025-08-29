@@ -24,4 +24,4 @@
 
 - [对共享内存做CAS依然有效的例子](./examples/rustix_mmap.rs)
 - [futex多进程下对线程休眠和唤醒](./examples/rustix_futex.rs)
-- 
+- [共享内存实现进程锁,简单通信](./examples/rustix_mmap2.rs)
