@@ -3,6 +3,11 @@ name = "demo05-axum"
 version = "0.1.0"
 edition = "2021"
 
+[[example]]
+name = "validator"
+#path = "examples/validator/src/main.rs"
+#
+
 [dependencies]
 axum-extra = "0.9.3"
 tower = { version = "0.4.13", features = ["full"] }
@@ -11,3 +16,4 @@ tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 axum = "0.7.7"
 tokio = { version = "1.40.0", features = ["full"] }
 tracing = "0.1.40"
+validator = { version = "0.20.0", features = ["derive"] }

@@ -5,3 +5,18 @@ edition = "2021"
 
 
 [dependencies]
+anyhow = "1.0.99"
+bincode = { version = "2.0.1",  features = ["serde"] }
+futures = "0.3.31"
+memmap2 = "0.9.8"
+rustix = { version = "1.0.8", features = ["event", "process", "param", "system", "mm"] }
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.40.0", features = ["net", "rt", "rt-multi-thread", "macros"] }
+winapi = {  version = "0.3.9", features = ["synchapi"] }
+tempfile = "3.21.0"
+rustix-futex-sync = { version = "0.4.0", features = ["shm"] }
+rand = "0.9.2"
+lock_api = "0.4.13"
+libc = "0.2.175"
+lazy_static = "1.5.0"
+sysinfo = "0.37.0"

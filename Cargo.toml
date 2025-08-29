@@ -1,20 +1,25 @@
 [workspace]
 resolver = "2"
 members = [
-    # "demo01-rust",
-    # "demo01-rust/chapter1-function",
+#    "demo13-signal",
+    "demo01-rust",
+    # "demo01-rust/chapter1-function"
     # "demo02-wgpu",
     # "demo03-egui",
     # "demo03-egui/chapter1-create",
     # "demo03-egui/chapter2-components",
     # "demo03-egui/chapter3-template",
     # "demo04-postgres", "demo09-hyper",
-    "demo05-axum",
-    # "demo06-auth", 
-    # "demo07-encrypt", 
+#     "demo05-axum/examples/validator",
+    # "demo11-wasm",
+    # "demo12-dominator-clone",
+    # "demo06-auth",
+#     "demo07-encrypt",
     # "demo08-swc",
     # "demo09-hyper",
+#      "demo14-sqlx", "demo15-tokio",
 ]
+
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

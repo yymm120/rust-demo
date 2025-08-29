@@ -11,11 +11,15 @@ tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 rand = "0.8"
 hmac = "0.12"
 sha2 = "0.10"
-hex-literal = "0.4.1"
-base64-url = "2"
+base64-url = "3"
+blake3 = "=1.8.2"   # 比sha-2和sha-3更快的hash工具, 安全性与sha-2相当, 但不如argon2
 # -- Others
 uuid = {version = "1", features = ["v4","fast-rng",]}
 tokio = { version = "1", features = ["full"] }
+argon2 = { version = "0.5.3", features = ["std"] }
+anyhow = { version = "1.0.98", features = ["std"] }
+hex = "0.4.3"
+base64 = "0.22.1"
 
 [dev-dependencies]
 serial_test = "2"
