@@ -1,0 +1,15 @@
+[package]
+name = "demo11-wasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["xinhao.lup"]
+publish = false
+
+
+# lib.crate-type = ["cdylib"] 是必须的，它可能会导致examples无法运行.
+# 可以在本地开发时[lib]注释掉, 当build时, 需要将注释打开.
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = { version = "0.2.95" }

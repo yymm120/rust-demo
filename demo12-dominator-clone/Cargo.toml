@@ -1,0 +1,65 @@
+[package]
+name = "demo12-dominator-clone"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+discard = "1.0.4"
+futures-signals = "0.3.34"
+futures-util = "0.3.31"
+js-sys = "0.3.72"
+once_cell = "1.20.2"
+wasm-bindgen = "0.2.95"
+wasm-bindgen-futures = "0.4.45"
+
+
+
+# https://rustwasm.github.io/wasm-bindgen/web-sys/index.html
+[dependencies.web-sys]
+version = "0.3.70"
+features = [
+    "CharacterData",
+    "Comment",
+    "CssRule",
+    "CssRuleList",
+    "CssStyleDeclaration",
+    "CssStyleRule",
+    "CssStyleSheet",
+    "DataTransfer",
+    "Document",
+    "DomTokenList",
+    "DragEvent",
+    "Element",
+    "Event",
+    "EventTarget",
+    "FocusEvent",
+    "History",
+    "InputEvent",
+    "HtmlElement",
+    "HtmlHeadElement",
+    "HtmlInputElement",
+    "HtmlStyleElement",
+    "HtmlTextAreaElement",
+    "KeyboardEvent",
+    "Location",
+    "MediaQueryList",
+    "MouseEvent",
+    "AnimationEvent",
+    "WheelEvent",
+    "Node",
+    "PointerEvent",
+    "ScrollBehavior",
+    "ScrollIntoViewOptions",
+    "ScrollLogicalPosition",
+    "ShadowRoot",
+    "ShadowRootInit",
+    "ShadowRootMode",
+    "StyleSheet",
+    "SvgElement",
+    "Text",
+    "Touch",
+    "TouchEvent",
+    "TouchList",
+    "UiEvent",
+    "Window",
+]

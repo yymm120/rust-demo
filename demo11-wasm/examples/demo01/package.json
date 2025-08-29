@@ -1,0 +1,21 @@
+{
+  "name": "01-demo",
+  "module": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist/js && rollup --bundleConfigAsCjs --config",
+    "watch": "rimraf dist/js && rollup --bundleConfigAsCjs --config --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@wasm-tool/rollup-plugin-rust": "^2.4.5",
+    "rimraf": "^6.0.1",
+    "rollup": "^4.24.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
